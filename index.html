@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1 id="text">Cars</h1>
+                    <p class="lead">Click a button to generate Gifs of that topic or create your own button!</p>
+                    <div id="buttons"></div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="create-input">Add a Car </label>
+                        <input type="text" class="form-control" id="create-input" placeholder="Add a car">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="addCar">Submit</button>
+                    <h3 id ="no entry"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel" id="panel-body">
+                    <div id="cars-view">
+                        <div class=images></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</body>
